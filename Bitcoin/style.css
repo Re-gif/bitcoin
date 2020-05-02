@@ -1,0 +1,237 @@
+.topnav a {
+  float: left;
+display: block;
+  color:fefef7;
+  text-align: center;
+  padding: 5px 8px;
+  text-decoration:none;
+
+
+
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+.topnav-right {
+  float: right;
+}
+
+ .topnav a .button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+ .topnav a .button1 {
+  background-color: white; 
+  color: blue; 
+  border: 2px solid 06189b;
+  border-radius: 12px;
+}
+  .topnav a .button2 {
+  background-color:06189b; 
+  color: white; 
+}
+
+
+.button3 {
+  background-color: white; 
+  color: blue;
+  padding: 15px 32px;
+  font-size: 32px;
+  border-radius: 12px;
+  width:20%;
+  height:10%;
+  text-align:center;
+  float:center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.row {margin: 0 -5px;}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.svg-7:hover path {
+  d: path("M2,5 S2,14 4,5 S7,8 8,4")
+}
+
+svg {
+  width: 10%;
+  height: 1%;
+  background: #eee;
+  margin-bottom: 1%;
+}
+svg polyline,
+svg line,
+svg path {
+  fill: none;
+  stroke: #000;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: 0.2s;
+}
+.flex-container {
+  display:flex;
+  flex-direction:column;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  
+}
+.flex-container > div {
+  color:black;
+  width:40%;
+}
+
+
+.flex-container .circle-icon {
+    background: #fff;
+    color:skyblue;
+    padding:20px;
+    border-radius: 50%;
+}
+.flex-container1 {
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  
+}
+.flex-container1 .circle-icon1 {
+    background: #fff;
+    color:blue;
+    padding:10px;
+    border-radius: 50%;
+}
+.box {
+text-align:center;
+  margin: 70px;
+  padding:10px;
+}
+.flex-container2 {
+  display:flex;
+  flex-direction:row;
+  color:white;
+  float:center;
+  margin: 15px;
+  justify-content: space-between;
+}
+.flex-container3 {
+  width: 400px;
+  height: 100px;
+  display:flex;
+  flex-direction:row;
+  float:center;
+  justify-content: space-between;
+  
+}
+#flex-container3 div {
+  width: 70px;
+  height: 70px;
+}
+.row1 {
+  display: flex;
+}
+
+.column1 {
+  flex: 50%;
+}
+
+.flex-container4 {
+  display:flex;
+  flex-direction:row;
+  color:white;
+  float:center;
+  margin: 15px;
+  justify-content: space-between;
+}
+.flex-container4 .circle-icon1 {
+    background: #fff;
+    color:blue;
+    float:center;
+    padding:10px;
+    border-radius: 50%;
+}
+
+.footer {
+  width: 100%;
+  position: relative;
+  height: auto;
+ 
+}
+
+.footer .col {
+  width: 190px;
+  height: auto;
+  float: center;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0px 20px 20px 20px;
+  background-color: blue;
+}
+.footer .col h1 {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: 12px;
+  line-height: 17px;
+  padding: 20px 0px 5px 0px;
+  color: white;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.250em;
+}
+.footer .col ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.footer .col ul li {
+  color: white;
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 5px 0px 5px 0px;
+  cursor: pointer;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+}
+
+
+.footer .col ul li:hover {
+  color: #ffffff;
+  transition: .1s;
+  -webkit-transition: .1s;
+  -moz-transition: .1s;
+}
